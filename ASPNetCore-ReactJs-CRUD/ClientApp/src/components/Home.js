@@ -63,7 +63,7 @@ export class Home extends Component {
     return (
       <div class="container">
         <div class="alert alert-info" role="alert">
-          <div class="row"><div class="col-sm-4" style={mystyle.carddipslay}>Credit Card Details </div>
+          <div class="row"><div class="col-sm-4 bg-secondary text-white" style={mystyle.carddipslay}>Credit Card Details </div>
             <div class="col-sm-8">
               <NavLink tag={Link} className="text-dark" to="/addcreditcard">
                 <FontAwesomeIcon icon={faPlus} />  Add New Record</NavLink>
